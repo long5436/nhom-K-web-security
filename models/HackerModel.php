@@ -9,8 +9,6 @@ class HackerModel extends BaseModel
     public function insertHacker($input)
     {
 
-
-        // $string = htmlspecialchars($input['data']);
         if (isset($input['cookie'])) {
 
             $str = $input['cookie'];
